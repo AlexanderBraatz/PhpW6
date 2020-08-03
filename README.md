@@ -3,6 +3,8 @@
 # For each new challange this W6
 
 1. Create a new file for each challenge
+   1. cd <working directory>
+   2. touch <new file.php>
 
 2. install the symfony/var-dumper package with Composer and include vendor/autoload.php in each file
    1. run: 
@@ -19,8 +21,7 @@ require __DIR__ . "/vendor/autoload.php";
 php <file.php>
 
 5. commit with a sensible message.
-   1. cd W6php
-   2. git add <this challange file>
-   3. git commit -am ""
-   4. git push
+   1. git add * 
+   2. git commit -am ""
+   3. git push
 
